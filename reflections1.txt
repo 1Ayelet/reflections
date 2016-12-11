@@ -7,3 +7,9 @@ What do you think are the pros and cons of manually choosing when to create a co
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 
 How can you use the commands git log and git diff to view the history of files?
+
+git diff --> compare between workingArea to stagingArea
+git diff --staged --> compare between stagingArea to commited
+git reset --hard    (!!!) delete all changes in the working area !! 
+git show :shows the difference between one commit and its parent, without knowing who his parent was
+git branch -d coins :delete the label of the branch (for example after we already merged it into the master)
